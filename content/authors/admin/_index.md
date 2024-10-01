@@ -6,11 +6,11 @@ title: Yunseong Yang(양윤성)
 superuser: true
 
 # Role/position
-role: ''
+role: 'Game Developer'
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 👾
 
 # Organizations/Affiliations
 #organizations:
@@ -44,7 +44,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
+    link: 'today3504@gmail.com' # For a direct email link, use "mailto:test@example.org".
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/wowchemy
