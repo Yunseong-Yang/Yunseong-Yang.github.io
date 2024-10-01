@@ -6,7 +6,7 @@ title: Yunseong Yang(양윤성)
 superuser: true
 
 # Role/position
-role: 'Game Developer'
+role: 'JBNU Student'
 
 # Status emoji
 status:
@@ -44,7 +44,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'today3504@gmail.com' # For a direct email link, use "mailto:test@example.org".
+    link: 'google:today3504@gmail.com' # For a direct email link, use "mailto:test@example.org".
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/wowchemy
@@ -52,9 +52,9 @@ social:
     icon_pack: fab
     link: https://instagram.com/geocushen
 # Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
