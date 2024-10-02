@@ -16,11 +16,12 @@ main:
     weight: 30
   - name: C#
     parent: study
-    url:/
+    url: /
     weight: 10
   - name: Unity
     parent: study
     url: /
+    weight: 20
   - name: Inform
     url: /
     weight: 40
