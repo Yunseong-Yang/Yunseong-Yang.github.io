@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: GDS(Game Develop Study) Site # Website name
-baseURL: 'https://yunseong-yang.github.io/' # Website URL
+title: GDSS # Website name
+baseURL: 'https://yunseong-yang.github.io/ko/' # Website URL
 
 ############################
 ## PAGE OPTIONS

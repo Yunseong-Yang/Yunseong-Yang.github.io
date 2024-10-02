@@ -33,12 +33,19 @@ marketing:
 
 header:
   navbar:
+    button:
+      enable: true
+      text: "GDSS"
+      url: "https://yunseong-yang.github.io/ko"
+
+  navbar:
     enable: true
-    align: r
+    align: center
     show_logo: false
     show_language: true
     show_day_night: true
     show_search: true
+    show_translations: true
     highlight_active_link: false
 
 footer:
