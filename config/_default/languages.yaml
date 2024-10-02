@@ -3,19 +3,29 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-kr:
-  languageCode: ko-kr
-  disabled: false
-  weight: 1
 
 en:
   languageCode: en-us
   disabled: false
   weight: 2
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  menu:
+    main:
+      -name: English
+      -weight: 2
 
 # Uncomment the lines below to configure your website in a second language.
+
+ko:
+  languageCode: ko-kr
+  disabled: false
+  weight: 1
+  contentDir: content/ko
+  menu:
+    main:
+      - name: korean
+      - weight: 1
 #zh:
 #  languageCode: zh-Hans
 #  contentDir: content/zh
