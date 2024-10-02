@@ -35,7 +35,7 @@ header:
   navbar:
     enable: true
     show_search: true
-    #show_button: true
+    show_button: true
     button:
       enable: true
       text: "GDSS"
@@ -43,9 +43,9 @@ header:
       url: "https://yunseong-yang.github.io/ko"
 
     align: r
-    #show_theme_chooser: true
-    #show_translations: true
-    #highlight_active_link: false
+    show_theme_chooser: true
+    show_translations: true
+    highlight_active_link: false
 
 footer:
   copyright:
@@ -93,13 +93,13 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
-  search:
-    provider: ''
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+  # search:
+  #   provider: ''
+  #   algolia:
+  #     app_id: ''
+  #     api_key: ''
+  #     index_name: ''
+  #     show_logo: false
   map:
     provider: 'google'
     api_key: ''
