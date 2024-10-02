@@ -17,6 +17,10 @@ content:
   autolink: true
 
   # Email form provider
+  coordinates:
+    latitude: 35.8460746
+    longitude: 127.1342646
+
   form:
     provider: netlify
     formspree:
