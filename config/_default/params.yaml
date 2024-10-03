@@ -6,14 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: custom
-  theme_night: custom
+  mode: system
   font: minimal
   font_size: L
-  design:
-    background:
-      color: '999999'
-    text_color_light: true
+  color: blue
 
 # SEO
 
@@ -79,7 +75,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/Yunseong-Yang/Yunseong-Yang.github.io'
     content_dir: content
     branch: main
   avatar:
