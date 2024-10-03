@@ -33,6 +33,11 @@ marketing:
 
 header:
   navbar:
+    design:
+      background:
+        color: '999999'
+      text_color_light: true
+
     enable: true
     show_search: true
     show_button: true
