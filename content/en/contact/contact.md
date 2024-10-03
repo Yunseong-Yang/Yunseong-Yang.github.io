@@ -9,25 +9,19 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Get in touch
-subtitle:
+title: Contact
+subtitle: 
 
 content:
-  # Automatically link email and phone or display as text?
-  autolink: true
-  
+  - icon: envelope
+    icon_pack: fas
+    name: today3504@gmail.com
+  - icon: custom/map
+    icon_pack: fab
+    name: 전북특별자치도 전주시 덕진구 백제대로 567 전북대학교 컴퓨터인공지능학부
   coordinates:
     latitude: 35.8460746
     longitude: 127.1342646
-
-  # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
 
 design:
   columns: '1'
