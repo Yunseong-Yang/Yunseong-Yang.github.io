@@ -93,15 +93,18 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
-  # search:
-  #   provider: ''
-  #   algolia:
-  #     app_id: ''
-  #     api_key: ''
-  #     index_name: ''
-  #     show_logo: false
+  search:
+    provider: wowchemy
+    wowchemy:
+      min_length: 1
+      threshold: 0.3
+    # algolia:
+    #   app_id: ''
+    #   api_key: ''
+    #   index_name: ''
+    #   show_logo: false
   map:
-    provider: 'google'
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
 
