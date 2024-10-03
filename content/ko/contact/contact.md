@@ -17,7 +17,7 @@ content:
     - icon: envelope
       icon_pack: fas
       name: today3504@gmail.com
-    - icon: custom/map
+    - icon: custom/school
       icon_pack: fab
       name: 전북특별자치도 전주시 덕진구 백제대로 567 전북대학교 컴퓨터인공지능학부
 
