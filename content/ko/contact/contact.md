@@ -12,14 +12,22 @@ weight: 50
 title: Contact Me
 subtitle:
 
+sections:
+  - block: markdown
+    id: contact
+    content:
+      title: Section 1
+      coordinates:
+      latitude: 35.8460746
+      longitude: 127.1342646
+
+
 content:
   # Automatically link email and phone or display as text?
-  autolink: true
+  # autolink: true
 
   # Email form provider
-  coordinates:
-    latitude: 35.8460746
-    longitude: 127.1342646
+  
 
   # form:
   #   provider: netlify
