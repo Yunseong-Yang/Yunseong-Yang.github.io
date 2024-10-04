@@ -19,4 +19,5 @@ feature:
 
 design:
   columns: '1'
+  spacing: {padding: [5, 5, 5, 5]}
 ---

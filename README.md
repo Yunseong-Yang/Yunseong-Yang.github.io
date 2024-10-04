@@ -26,5 +26,5 @@
 
 ## 웹사이트 개발 도구
 
-해당 사이트는 Hugo Blox Builder의 Portfolio Template(widget_page type)로 제작되었습니다.
+해당 사이트는 Hugo Blox Builder의 Portfolio Template(widget_page type)으로 제작되었습니다.
 
