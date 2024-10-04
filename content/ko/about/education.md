@@ -25,7 +25,7 @@ experience:
   - title: 컴퓨터인공지능학부
     company: 전북대학교
     company_url: ''
-    company_logo: org-x
+    company_logo: school
     location: 대한민국
     date_start: '2020-03-02'
     date_end: ''
