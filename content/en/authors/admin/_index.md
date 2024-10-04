@@ -73,8 +73,8 @@ social:
 #email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello, my name is Yunseong-Yang, I'm currently a junior in the Department of Computer Science & Artificial Intelligence at Jeonbuk National University. My main field of interest is games, and my current goal is to continue studying the Unity game engine and release an independent game through it.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+As an undergraduate project, I had developed 'Renting a home and Pretecting others from COVID-19'(Windows Programming) and 'Tanghulu Planner' (Mobile Programming). In the future, In the future, I plan to create an action platformer game like "Getting Over It" or "AltF4" using Unity.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} Follow the link to download a PDF of my resume (the file is blank).

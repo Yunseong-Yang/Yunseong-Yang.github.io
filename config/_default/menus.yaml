@@ -10,7 +10,7 @@ main:
   - name: About
     url: about/
     weight: 20
-  - name: Study
+  - name: Project
     url: /
     identifier: study
     weight: 30
