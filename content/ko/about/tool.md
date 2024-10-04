@@ -1,5 +1,5 @@
 ---
-widget: tools
+widget: featurette
 
 headless: true
 

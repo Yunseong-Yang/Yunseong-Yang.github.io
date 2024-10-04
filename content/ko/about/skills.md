@@ -1,5 +1,5 @@
 ---
-widget: skills
+widget: featurette
 
 headless: true
 
