@@ -28,7 +28,7 @@ experience:
     company_logo: custom/school
     location: Republic of Korea
     date_start: '2020-03-02'
-    date_end: '~'
+    date_end: ''
     description: Game Development Major
 
 design:

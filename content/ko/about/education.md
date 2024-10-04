@@ -28,7 +28,7 @@ experience:
     company_logo: org-x
     location: 대한민국
     date_start: '2020-03-02'
-    date_end: '~'
+    date_end: ''
     description: 게임 개발 전공
 
 design:
