@@ -25,7 +25,7 @@ experience:
   - title: Department of Computer Science & Artificial Intelligence
     company: Jeonbuk National University
     company_url: ''
-    company_logo: custom/school
+    company_logo: school
     location: Republic of Korea
     date_start: '2020-03-02'
     date_end: ''
