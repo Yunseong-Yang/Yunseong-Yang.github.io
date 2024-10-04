@@ -77,4 +77,5 @@ Hello, my name is Yunseong-Yang, I'm currently a junior in the Department of Com
 
 As an undergraduate project, I had developed 'Renting a home and Pretecting others from COVID-19'(Windows Programming) and 'Tanghulu Planner' (Mobile Programming). In the future, In the future, I plan to create an action platformer game like "Getting Over It" or "AltF4" using Unity.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} Follow the link to download a PDF of my resume (the file is blank).
+Follow the link to download a PDF of my resume (the file is blank).
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} 

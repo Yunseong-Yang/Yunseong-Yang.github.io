@@ -75,4 +75,5 @@ social:
 
 학부 프로젝트로 코로나 경로 회피를 통한 집구하기(윈도우즈프로그래밍), 탕후루 플래너(모바일프로그래밍) 등을 개발했으며 추후 Unity를 통해 'Getting Over It'이나 'AltF4'와 같은 액션 플랫포머 게임 프로젝트를 만들 계획입니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} 링크를 통해 이력서 PDF파일을 다운받으세요.(파일은 빈 파일입니다.)
+링크를 통해 이력서 PDF파일을 다운받으세요.(파일은 빈 파일입니다.)
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} 
