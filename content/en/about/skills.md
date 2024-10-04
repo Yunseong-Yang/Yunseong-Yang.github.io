@@ -5,16 +5,16 @@ headless: true
 
 weight: 20
 
-title: 주요 언어
+title: Programming Language
 
 feature:
-    - icon: map
+    - icon: code
     - name: C/C++
-    
-    - icon: map
+
+    - icon: code
     - name: C#
 
-    - icon: map
+    - icon: code
     - name: Java
 
 design:

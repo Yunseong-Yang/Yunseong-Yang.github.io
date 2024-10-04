@@ -5,16 +5,16 @@ headless: true
 
 weight: 30
 
-title: 개발 도구
+title: Development Tool
 
 feature:
-    - icon: map
+    - icon: gear
     - name: Visual Studio Code/2022
 
-    - icon: map
+    - icon: gear
     - name: IntelliJ IDEA Community Edition
 
-    - icon: map
+    - icon: gear
     - name: Unity
 
 design:
