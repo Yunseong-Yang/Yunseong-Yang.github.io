@@ -9,11 +9,8 @@ title: 주요 언어
 
 feature:
     - icon: map
-    - name: C
-
-    - icon: map
-    - name: C++
-
+    - name: C/C++
+    
     - icon: map
     - name: C#
 
