@@ -20,4 +20,7 @@ feature:
     - name: 
     - description: Java
 
+design:
+  columns: '2'
+  css_style: "text-align: justify;"
 ---

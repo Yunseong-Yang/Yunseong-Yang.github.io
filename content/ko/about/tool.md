@@ -20,4 +20,7 @@ feature:
     - name: 
     - description: Unity
 
+design:
+  columns: '2'
+  css_style: "text-align: justify;"
 ---
