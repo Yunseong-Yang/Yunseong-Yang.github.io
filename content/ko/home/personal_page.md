@@ -33,7 +33,7 @@ content:
   sort_ascending: false
 design:
   # Choose a listing view
-  view: article-grid
+  view: date-title-summary
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
   flip_alt_rows: true
