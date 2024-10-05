@@ -20,6 +20,4 @@ feature:
     - name: 
     - description: Unity
 
-design:
-  columns: '1'
 ---

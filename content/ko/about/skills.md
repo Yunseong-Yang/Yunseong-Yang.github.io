@@ -20,6 +20,4 @@ feature:
     - name: 
     - description: Java
 
-design:
-  columns: '1'
 ---

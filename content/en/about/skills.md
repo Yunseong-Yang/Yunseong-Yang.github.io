@@ -19,7 +19,4 @@ feature:
     - icon: code
     - name: 
     - description: Java
-
-design:
-  columns: '1'
 ---

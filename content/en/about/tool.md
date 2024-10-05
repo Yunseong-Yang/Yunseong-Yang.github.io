@@ -19,7 +19,4 @@ feature:
     - icon: gear
     - name: 
     - description: Unity
-
-design:
-  columns: '1'
 ---

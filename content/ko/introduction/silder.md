@@ -3,8 +3,6 @@ widget: slider
 headless: true
 active: true
 
-title: Introduction
-
 weight: 20
 
 design:
