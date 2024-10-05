@@ -1,7 +1,7 @@
 ---
 title: Future projects
 
-view: showcase
+view: citation
 
 banner:
     caption: ''
