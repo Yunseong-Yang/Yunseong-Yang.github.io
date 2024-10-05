@@ -6,7 +6,8 @@ active: true
 weight: 20
 
 design:
-    columns: 1
+    slide_height: '300px'
+    slide_width: '100px'
     is_fullscreen: true
     loop: true
     interval: 3000

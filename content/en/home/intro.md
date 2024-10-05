@@ -17,8 +17,6 @@ author: admin
 #      path:  # enter filename of a video in /assets/media
 #  css_class: fullscreen
 ---
-
 Hello, I'm Yunseong Yang, from Jeonbuk National University, Department of Computer Science & Artificial Intelligence and I'm interested in developing games with Unity.
-{style="font-size: 0.7rem; background: #212121;-webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
 Check out the latest news and my project history below!
