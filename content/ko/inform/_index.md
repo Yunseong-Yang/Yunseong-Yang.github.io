@@ -5,5 +5,5 @@ view: compact
 
 banner:
     caption: ''
-    image: 'news'
+    image: 'news.jpg'
 ---

@@ -40,7 +40,7 @@ header:
       enable: true
       text: '<button class="my_button">GDPS</button>'
       align: l
-      url: "https://yunseong-yang.github.io/ko"
+      url: "https://yunseong-yang.github.io"
 
     align: c
     show_theme_chooser: true
@@ -106,7 +106,6 @@ features:
   map:
     provider: 'mapnik'
     api_key: ''
-    #'AIzaSyDhsJmR4Yz1rZ5M_E_gus-th0CsxauK_ko'
     zoom: 15
 
 extensions:

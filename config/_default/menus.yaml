@@ -12,15 +12,15 @@ main:
     weight: 20
   - name: Project
     url: /
-    identifier: study
+    identifier: project
     weight: 30
-  - name: C#
-    parent: study
-    url: csharp
+  - name: Personal
+    parent: project
+    url: /
     weight: 10
-  - name: Unity
-    parent: study
-    url: unitystudy
+  - name: Team
+    parent: project
+    url: /
     weight: 20
   - name: Inform
     url: /inform/
