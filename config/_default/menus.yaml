@@ -23,7 +23,7 @@ main:
     url: unitystudy
     weight: 20
   - name: Inform
-    url: /inform/index/
+    url: /
     weight: 40
   - name: Contact
     url: contact/
