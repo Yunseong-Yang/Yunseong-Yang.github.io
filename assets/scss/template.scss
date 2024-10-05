@@ -39,7 +39,7 @@ body {
 }
 
 .my-button {
- /* 기본 색상 */
+  background-color: #f8f9fa;
   color: black;
   padding: 10px 20px;
   border: none;
@@ -48,7 +48,8 @@ body {
 }
 
 .my-button:hover {
-  color: #1188e9; /* 호버 시 색상 변경 */
+  background-color: #e2e6ea;
+  color: #1188e9;
 }
 
 // custom section padding
