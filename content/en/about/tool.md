@@ -5,19 +5,21 @@ headless: true
 
 weight: 30
 
-title: Development Tool
+title: Development Tools
 
 feature:
     - icon: gear
-    - name: Visual Studio Code/2022
+    - name: 
+    - description: Visual Studio Code/2022
 
     - icon: gear
-    - name: IntelliJ IDEA Community Edition
-
+    - name: 
+    - description: IntelliJ IDEA Community Edition
+    
     - icon: gear
-    - name: Unity
+    - name: 
+    - description: Unity
 
 design:
   columns: '1'
-  spacing: {padding: [5, 5, 5, 5]}
 ---

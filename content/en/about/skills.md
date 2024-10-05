@@ -9,15 +9,17 @@ title: Programming Language
 
 feature:
     - icon: code
-    - name: C/C++
+    - name: 
+    - description: C/C++
+    
+    - icon: code
+    - name: 
+    - description: C#
 
     - icon: code
-    - name: C#
-
-    - icon: code
-    - name: Java
+    - name: 
+    - description: Java
 
 design:
   columns: '1'
-  spacing: {padding: [5, 5, 5, 5]}
 ---

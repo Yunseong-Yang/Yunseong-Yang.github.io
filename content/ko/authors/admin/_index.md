@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yunseong Yang(양윤성)
+title: 양윤성
 
 # Is this the primary user of the site?
 superuser: true
@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 유니티 게임 개발에 관심이 많습니다.
 
 #interests:
 #- Artificial Intelligence

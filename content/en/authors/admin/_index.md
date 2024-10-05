@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yunseong Yang(양윤성)
+title: Yunseong Yang
 
 # Is this the primary user of the site?
 superuser: true
