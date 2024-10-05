@@ -42,4 +42,5 @@ experience:
 
 design:
   columns: '1'
+  css_style: "text-align: justify;"
 ---

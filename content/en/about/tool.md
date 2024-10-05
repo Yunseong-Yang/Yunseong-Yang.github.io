@@ -19,4 +19,8 @@ feature:
     - icon: gear
     - name: 
     - description: Unity
+
+design:
+  columns: '1'
+  css_style: "text-align: justify;"
 ---

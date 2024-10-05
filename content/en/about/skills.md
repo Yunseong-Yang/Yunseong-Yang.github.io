@@ -19,4 +19,8 @@ feature:
     - icon: code
     - name: 
     - description: Java
+
+design:
+  columns: '1'
+  css_style: "text-align: justify;"
 ---

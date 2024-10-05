@@ -21,6 +21,6 @@ feature:
     - description: Java
 
 design:
-  columns: '2'
+  columns: '1'
   css_style: "text-align: justify;"
 ---
