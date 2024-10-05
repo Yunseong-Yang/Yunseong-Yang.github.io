@@ -2,7 +2,7 @@
 widget: blank
 headless: true
 
-title: Introduction
+title: 
 
 weight: 10
 

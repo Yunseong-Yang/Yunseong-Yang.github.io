@@ -7,14 +7,14 @@ weight: 20
 
 design:
     columns: 1
-    is_fullscreen: true
+    is_fullscreen: false
     loop: true
     interval: 3000
 
 content:
     slides:
-    - title: 기술
-      content: C/C++/C# 등 다양한 언어 숙지
+    - title: Skills
+      content: Familiarity with multiple languages, including C/C++/C#, etc.
       align: center
       background:
         position: center
@@ -22,7 +22,7 @@ content:
         brightness: 0.4
         media: coding.jpg
     - title: Unity
-      content: 유니티 게임 엔진을 활용한 게임 개발
+      content: Developing games with the Unity
       align: center
       background:
         position: center
@@ -39,5 +39,5 @@ content:
         media: contact.jpg
       link:
         text: Click Me!
-        url: /contact/      
+        url: /contact/          
 ---

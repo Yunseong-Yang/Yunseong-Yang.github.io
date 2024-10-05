@@ -36,7 +36,7 @@ content:
         position: center
         color: '#000'
         brightness: 0.4
-        media: pixel.jpg
+        media: contact.jpg
       link:
         text: Click Me!
         url: /contact/          
