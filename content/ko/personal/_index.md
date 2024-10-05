@@ -1,7 +1,7 @@
 ---
 title: Future projects
 
-view: date-title-summary
+view: masonry
 
 banner:
     caption: ''

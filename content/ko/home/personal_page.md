@@ -33,7 +33,7 @@ content:
   sort_ascending: false
 design:
   # Choose a listing view
-  view: date-title-summary
+  view: masonry
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
   flip_alt_rows: true
