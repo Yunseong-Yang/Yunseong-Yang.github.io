@@ -38,7 +38,7 @@ header:
     show_button: true
     button:
       enable: true
-      text: '<button class="my_button">GDPS</button>'
+      text: '<button class="my-button">GDPS</button>'
       align: l
       url: "https://yunseong-yang.github.io"
 

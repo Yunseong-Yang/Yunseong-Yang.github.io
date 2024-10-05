@@ -7,24 +7,28 @@ main:
   - name: Introduction
     url: /introduction/
     weight: 10
+
   - name: About
     url: about/
     weight: 20
+
   - name: Project
     url: /
     identifier: project
     weight: 30
   - name: Personal
     parent: project
-    url: /
+    url: /personal/
     weight: 10
   - name: Team
     parent: project
-    url: /
+    url: /team/
     weight: 20
+
   - name: Inform
     url: /inform/
     weight: 40
+    
   - name: Contact
     url: contact/
     weight: 50
