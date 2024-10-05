@@ -1,7 +1,7 @@
 ---
-title: Entering to Jeonbuk National University
-summary: Entering to Jeonbuk National University, Division of Computer Science and Engineering
+title: 전북대 입학
+summary: 2020년 전북대 컴퓨터공학부 입학
 date: 2020-03-02
 link: /
 ---
-In 2020, I entered Jeonbuk National University's Division of Computer Science and Engineering (Department of Computer Science and Artificial Intelligence) to acquire CS knowledge.
+2020년에 CS 지식을 습득하기 위해 전북대 컴퓨터공학부(컴퓨터인공지능학부)에 입학하였습니다.
