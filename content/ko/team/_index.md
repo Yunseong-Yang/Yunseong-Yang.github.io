@@ -1,5 +1,5 @@
 ---
-title: Recent Posts
+title: Team Projects
 
 view: card
 

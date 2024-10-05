@@ -1,5 +1,5 @@
 ---
-title: Recent Posts
+title: Future projects
 
 view: showcase
 

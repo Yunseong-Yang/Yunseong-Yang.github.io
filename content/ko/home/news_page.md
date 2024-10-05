@@ -7,7 +7,7 @@ title: Recent Posts
 subtitle: ''
 
 # Position of this section on the page
-weight: 40
+weight: 60
 
 content:
   # Filter content to display
