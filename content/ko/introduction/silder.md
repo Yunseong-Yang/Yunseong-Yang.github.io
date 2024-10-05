@@ -28,5 +28,16 @@ content:
         position: center
         color: '#000'
         brightness: 0.4
-        media: pixel.jpg      
+        media: pixel.jpg
+    - title: Contact
+      content: 
+      align: center
+      background:
+        position: center
+        color: '#000'
+        brightness: 0.4
+        media: pixel.jpg
+      link:
+        text: Click Me!
+        url: /contact/      
 ---
