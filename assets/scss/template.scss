@@ -38,6 +38,20 @@ body {
   box-shadow: none !important; // 'important' to override dark mode box-shadow too.
 }
 
+.my-button {
+  background-color: #f7fafc; /* 기본 색상 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #0056b3; /* 호버 시 색상 변경 */
+  color: #0056b3;
+}
+
 // custom section padding
 .home-section {
   padding: 1rem 0;

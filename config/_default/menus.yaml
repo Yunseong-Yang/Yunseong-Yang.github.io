@@ -23,7 +23,7 @@ main:
     url: unitystudy
     weight: 20
   - name: Inform
-    url: /inform/동아리입부
+    url: /inform/
     weight: 40
   - name: Contact
     url: contact/
