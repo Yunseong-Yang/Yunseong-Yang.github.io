@@ -47,6 +47,9 @@ header:
     show_translations: true
     highlight_active_link: false
 
+social:
+  image: coding.jpg
+
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
