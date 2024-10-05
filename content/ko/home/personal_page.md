@@ -37,4 +37,5 @@ design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
   flip_alt_rows: true
+  spacing: {padding: [5, 0, 5, 0]}
 ---

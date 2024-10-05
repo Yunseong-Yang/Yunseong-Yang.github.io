@@ -17,6 +17,6 @@ author: admin
 #      path:  # enter filename of a video in /assets/media
 #  css_class: fullscreen
 ---
-안녕하세요. 유니티 게임 개발에 관심이 있는 전북대 컴퓨터공학부 양윤성입니다.
+안녕하세요. 유니티 게임 개발에 관심이 있는 전북대 컴퓨터인공지능학부 양윤성입니다.
 
 아래에서 최신 소식과 저의 프로젝트 내역을 확인해보세요!

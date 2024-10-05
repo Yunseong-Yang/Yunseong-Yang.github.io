@@ -45,6 +45,7 @@ header:
     align: c
     show_theme_chooser: true
     show_translations: true
+    show_language: true
     highlight_active_link: false
 
 footer:
