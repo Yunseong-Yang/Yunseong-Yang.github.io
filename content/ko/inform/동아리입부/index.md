@@ -2,5 +2,5 @@
 title: 동아리 입부
 summary: 2024년 하반기에 동아리에 입부하였습니다.
 date: 2024-09-01
-external_link: /
+link: /
 ---
