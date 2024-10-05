@@ -76,4 +76,4 @@ minify:
   _merge: deep
 params:
   images:
-  - /assets/media/coding.jpg
+  - /media/coding.jpg

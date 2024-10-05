@@ -45,12 +45,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'google:today3504@gmail.com' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
-    icon_pack: fab
-    link: https://instagram.com/geocushen
 # Uncomment below for Github link
   - icon: github
     icon_pack: fab
@@ -58,9 +52,6 @@ social:
   - icon: youtube
     icon_pack: fab
     link: https://www.youtube.com/@%EC%96%91%EC%9C%A4%EC%84%B1-k2j
-  - icon: discord
-    icon_pack: fab
-    link: /
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
