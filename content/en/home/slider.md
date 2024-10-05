@@ -6,7 +6,7 @@ active: true
 weight: 20
 
 design:
-    slide_height: '300px'
+    slide_height: '400px'
     slide_width: '100px'
     is_fullscreen: false
     loop: true
