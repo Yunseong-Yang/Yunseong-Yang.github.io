@@ -38,14 +38,13 @@ header:
     show_button: true
     button:
       enable: true
-      text: '<button class="my-button">GDPS</button>'
+      text: 'GDPS'
       align: l
       url: "https://yunseong-yang.github.io"
 
     align: c
     show_theme_chooser: true
     show_translations: true
-    show_language: true
     highlight_active_link: false
 
 footer:

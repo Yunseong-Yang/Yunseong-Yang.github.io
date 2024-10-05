@@ -39,6 +39,6 @@ content:
         brightness: 0.4
         media: contact.jpg
       link:
-        text: Click Me!
+        text: <button class="my-button">Click Me!</button>
         url: /contact/      
 ---
