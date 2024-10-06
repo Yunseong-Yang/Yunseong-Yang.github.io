@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I'm interested in Unity game development.
 
 #interests:
 #- Artificial Intelligence
@@ -66,7 +66,7 @@ social:
 
 Hello, my name is Yunseong-Yang, I'm currently a junior in the Department of Computer Science & Artificial Intelligence at Jeonbuk National University. My main field of interest is games, and my current goal is to continue studying the Unity game engine and release an independent game through it.
 
-As an undergraduate project, I had developed 'Renting a home and Pretecting others from COVID-19'(Windows Programming) and 'Tanghulu Planner' (Mobile Programming). In the future, In the future, I plan to create an action platformer game like "Getting Over It" or "AltF4" using Unity.
+As an undergraduate project, I had developed 'Renting a home and Pretecting others from COVID-19'(Windows Programming) and 'Tanghulu Planner' (Mobile Programming). In the future, In the future, I plan to create an action platformer game using Unity.
 
 Follow the link to download a PDF of my resume (the file is blank).
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} 

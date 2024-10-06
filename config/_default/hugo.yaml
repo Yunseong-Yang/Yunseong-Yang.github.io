@@ -76,4 +76,4 @@ minify:
   _merge: deep
 params:
   images:
-  - /media/coding.jpg
+  - /images/game.jpg
