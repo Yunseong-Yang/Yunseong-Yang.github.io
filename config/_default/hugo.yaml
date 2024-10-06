@@ -76,4 +76,4 @@ minify:
   _merge: deep
 params:
   images:
-  - /images/game.jpg
+  - game.jpg
