@@ -27,7 +27,7 @@ const SignInPage: React.FC = () => {
         // 카카오 SDK 초기화
         if (KAKAO_JS_KEY && !window.Kakao.isInitialized()) {
             window.Kakao.init(KAKAO_JS_KEY);
-        }
+        } 
         checkAuthentication();
         showFieldsSequentially(3);
     }, [KAKAO_JS_KEY, checkAuthentication]);
