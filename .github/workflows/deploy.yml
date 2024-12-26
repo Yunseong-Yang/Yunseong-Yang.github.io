@@ -13,7 +13,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      # 2. Node.js 설정 (Node.js 18로 업데이트)
+      # 2. Node.js 설정
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -23,23 +23,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Git 사용자 정보 설정 (배포 시 Git 커밋 문제 방지)
+      # 4. Git 사용자 정보 설정
       - name: Configure Git user
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 5. 빌드 및 배포 환경변수 전달
+      # 5. 빌드 및 배포
       - name: Build and Deploy
         env:
           REACT_APP_KAKAO_JS_KEY: ${{ secrets.REACT_APP_KAKAO_JS_KEY }}
           REACT_APP_TMDB_API_KEY: ${{ secrets.REACT_APP_TMDB_API_KEY }}
         run: |
-          npm install
           npm run build
-          npx gh-pages -d build
+          npx gh-pages -d build --repo https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git
 
-      # 6. 배포 (gh-pages 브랜치로 푸시)
+      # 6. Deploy to gh-pages branch (Optional)
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
