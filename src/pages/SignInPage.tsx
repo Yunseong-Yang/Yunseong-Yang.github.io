@@ -80,7 +80,7 @@ const SignInPage: React.FC = () => {
 
                 window.Kakao.API.request({
                     url: "/v2/user/me",
-                    success: function (res: any) {
+                    success: function (res: any) { 
                         console.log("사용자 프로필:", res);
 
                         const nickname = res.properties?.nickname || "사용자";
