@@ -25,12 +25,12 @@ const SignInPage: React.FC = () => {
 
     useEffect(() => {
         // 카카오 SDK 초기화
-        if (!window.Kakao.isInitialized()) {
+        if (KAKAO_JS_KEY && !window.Kakao.isInitialized()) {
             window.Kakao.init(KAKAO_JS_KEY);
         }
-        showFieldsSequentially(3);
         checkAuthentication();
-    }, [checkAuthentication]);
+        showFieldsSequentially(3);
+    }, [KAKAO_JS_KEY, checkAuthentication]);
 
     const handleTabChange = (signIn: boolean) => {
         if (isSignIn !== signIn) {
