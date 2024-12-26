@@ -1,0 +1,118 @@
+.movie-row {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.movie-row-title {
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.movie-row-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow-x: auto;
+  padding: 10px 40px;
+  scroll-behavior: smooth;
+}
+
+.movie-row-arrow {
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.movie-row-arrow:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+.movie-row-arrow-left {
+  left: 10px;
+}
+
+.movie-row-arrow-right {
+  right: 10px;
+}
+
+.movie-row-content {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 40px;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+
+.movie-row-content::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.movie-wrapper {
+  flex: 0 0 200px; /* 고정된 크기 */
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s, border 0.3s;
+}
+
+.movie-poster:hover {
+  transform: scale(1.05);
+}
+
+.movie-poster.highlight {
+  border: 3px solid yellow;
+}
+
+.movie-row-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 1;
+}
+
+.movie-row-fade-left {
+  left: 0;
+}
+
+.movie-row-fade-right {
+  right: 0;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .movie-wrapper {
+    flex: 0 0 150px; /* 영화 포스터 크기 축소 */
+  }
+
+  .movie-row-container {
+    padding: 10px 20px; /* 패딩 축소 */
+  }
+}
+
+/* 모바일 (화면 너비 480px 이하) */
+@media screen and (max-width: 480px) {
+  .movie-wrapper {
+    flex: 0 0 120px; /* 영화 포스터 더 축소 */
+  }
+
+  .movie-row-container {
+    padding: 10px; /* 더 작은 패딩 */
+  }
+}

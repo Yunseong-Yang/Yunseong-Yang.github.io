@@ -1,0 +1,110 @@
+.search-page {
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 60px);
+  margin: 0 auto;
+  max-width: 1200px; /* 데스크톱에서 최대 폭 */
+}
+
+.filter-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* 필터 버튼이 좁은 화면에서 줄바꿈 */
+}
+
+.filter-options select,
+.filter-options button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-options button {
+  background-color: #ff4500;
+  color: white;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 데스크톱에서 5개 열 */
+  gap: 20px;
+}
+
+.movie-item {
+  position: relative;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-item.highlighted {
+  border: 3px solid yellow;
+  border-radius: 10px;
+}
+
+.movie-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-title {
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin: 20px 0;
+}
+
+/* 반응형 웹: 모바일과 태블릿에 맞춤 */
+@media screen and (max-width: 1024px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, 1fr); /* 태블릿에서 3개 열 */
+  }
+  .movie-poster {
+    height: 250px; /* 높이 축소 */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr); /* 모바일에서 2개 열 */
+  }
+  .filter-options {
+    gap: 5px; /* 좁은 화면에서 필터 간격 축소 */
+  }
+  .movie-poster {
+    height: 200px; /* 높이 더 축소 */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .movie-grid {
+    grid-template-columns: 1fr; /* 작은 모바일 화면에서 1개 열 */
+  }
+  .movie-poster {
+    height: 180px; /* 더 작은 높이 */
+  }
+  .movie-title {
+    font-size: 12px; /* 제목 글꼴 크기 축소 */
+  }
+}
