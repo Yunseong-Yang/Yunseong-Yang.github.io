@@ -29,7 +29,7 @@
 - git clone [(레파지토리.git)](https://github.com/Yunseong-Yang/Yunseong-Yang.github.io.git)
 - cd Yunseong-Yang.github.io/
 - npm install
-- npm start
+- npm run start:dev
 
 ## 프로젝트 주요 구조 설명
 **root/src/components/**
