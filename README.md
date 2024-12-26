@@ -1,5 +1,12 @@
 # 프로젝트 이름 (예: Netflix Clone)
 
+2차 과제의 내용에 카카오 로그인만 추가한 프로젝트 입니다.
+
+수정 사항
+- SignInPage: kakaoLogin 처리
+- Header: 회원 정보 조회 및 로그아웃 처리
+
+------------------------------------------------------------------
 ## 📖 프로젝트 기본 정보
 이 프로젝트는 영화 정보를 제공하고 사용자가 영화를 탐색하고, 찜 목록을 관리할 수 있는 Netflix 클론 웹 애플리케이션입니다. TMDB API를 활용하여 인기 영화 데이터를 표시하며, 사용자가 다양한 뷰로 영화를 탐색할 수 있도록 설계되었습니다.
 
@@ -19,8 +26,8 @@
 - **Package 관리**: npm
 
 ## 🚀 설치 및 실행 가이드
-- git clone [(레파지토리.git)](https://github.com/yys3504/yys3504.github.io.git)
-- cd yys3504.github.io/
+- git clone [(레파지토리.git)](https://github.com/Yunseong-Yang/Yunseong-Yang.github.io.git)
+- cd Yunseong-Yang.github.io/
 - npm install
 - npm start
 
