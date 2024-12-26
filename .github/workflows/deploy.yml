@@ -9,17 +9,27 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      # 1. 코드 체크아웃
       - name: Check out code
         uses: actions/checkout@v2
 
+      # 2. Node.js 설정 (Node.js 18로 업데이트)
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
 
+      # 3. 의존성 설치
       - name: Install dependencies
         run: npm install
 
+      # 4. Git 사용자 정보 설정 (배포 시 Git 커밋 문제 방지)
+      - name: Configure Git user
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 5. 빌드 및 배포 환경변수 전달
       - name: Build and Deploy
         env:
           REACT_APP_KAKAO_JS_KEY: ${{ secrets.REACT_APP_KAKAO_JS_KEY }}
@@ -29,9 +39,7 @@ jobs:
           npm run build
           npx gh-pages -d build
 
-      - name: Build project
-        run: npm run build
-
+      # 6. 배포 (gh-pages 브랜치로 푸시)
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
