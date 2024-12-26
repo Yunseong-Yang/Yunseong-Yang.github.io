@@ -14,7 +14,6 @@ const SignInPage: React.FC = () => {
     // 카카오 JavaScript 키
     const KAKAO_JS_KEY = process.env.REACT_APP_KAKAO_JS_KEY; // 실제 JavaScript Key로 변경
     //const REDIRECT_URI = "http://localhost:8080/redirect"; // 리다이렉트 URI
-
     // 초기화 및 인증 상태 확인
     const checkAuthentication = useCallback(() => {
         const isAuthenticated = localStorage.getItem("isAuthenticated") === "true";
@@ -24,10 +23,16 @@ const SignInPage: React.FC = () => {
     }, [navigate]);
 
     useEffect(() => {
-        // 카카오 SDK 초기화
-        if (KAKAO_JS_KEY && !window.Kakao.isInitialized()) {
-            window.Kakao.init(KAKAO_JS_KEY);
-        } 
+        if (KAKAO_JS_KEY) {
+            if (typeof window.Kakao !== "undefined" && !window.Kakao.isInitialized()) {
+                window.Kakao.init(KAKAO_JS_KEY);
+                console.log("카카오 SDK 초기화 성공");
+            } else {
+                console.error("카카오 SDK 로드 실패 또는 이미 초기화됨");
+            }
+        } else {
+            console.error("KAKAO_JS_KEY가 정의되지 않음");
+        }
         checkAuthentication();
         showFieldsSequentially(3);
     }, [KAKAO_JS_KEY, checkAuthentication]);

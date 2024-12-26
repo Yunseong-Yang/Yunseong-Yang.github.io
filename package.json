@@ -29,9 +29,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:dev": "npx dotenv -e .env-dev react-scripts start",
-    "start:prod": "npx dotenv -e .env-prod react-scripts start",
+    "start:prod": "npx dotenv -e .env-production react-scripts start",
     "build:dev": "npx dotenv -e .env-dev react-scripts build",
-    "build:prod": "npx dotenv -e .env-prod react-scripts build"
+    "build:prod": "npx dotenv -e .env-production react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,5 +58,5 @@
     "cross-env": "^7.0.3",
     "gh-pages": "^6.2.0"
   },
-  "homepage": "https://yys3504.github.io"
+  "homepage": "https://Yunseong-Yang.github.io"
 }
